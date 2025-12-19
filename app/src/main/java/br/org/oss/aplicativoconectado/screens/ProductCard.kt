@@ -73,7 +73,7 @@ fun ProductCard(
     }
 }
 
-@Preview(showSystemUi = true, showBackground = true)
+@Preview(showSystemUi = true)
 @Composable
 fun PreviewProductCard() {
     AplicativoConectadoTheme {

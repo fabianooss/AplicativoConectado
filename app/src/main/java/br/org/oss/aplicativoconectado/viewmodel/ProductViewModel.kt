@@ -19,9 +19,12 @@ class ProductViewModel: ViewModel() {
 
     fun loadProducts() {
         viewModelScope.launch {
-            val products = api.getProducts()
-            _products.value = products.products
+            val response = api.getProducts()
+            _products.value = response.products
+
         }
 
     }
+
+
 }

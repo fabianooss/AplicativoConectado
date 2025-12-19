@@ -3,6 +3,9 @@ package br.org.oss.aplicativoconectado.api
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
+/**
+ *
+ */
 object ApiClient {
 
     private const val BASE_URL = "https://dummyjson.com/"
